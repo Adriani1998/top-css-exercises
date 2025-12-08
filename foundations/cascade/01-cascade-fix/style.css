@@ -17,6 +17,16 @@ body {
   font-size: 22px;
 }
 
+p.para{
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.para.small-para {
+  font-weight: 900;
+  font-size: 20px;
+}
+
 .confirm {
   background: green;
   color: white;
@@ -29,6 +39,12 @@ body {
   font-size: 20px;
 }
 
+#confirm-button{
+    background: green;
+  color: white;
+  font-weight: bold;
+}
+
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
@@ -39,4 +55,9 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+.child.text {
+   font-weight: 900;
+  font-size: 20px;
 }
