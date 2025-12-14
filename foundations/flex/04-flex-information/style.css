@@ -24,3 +24,22 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solution by me */
+
+.TopInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title{
+  text-align: center;
+
+}
+.All-Items {
+  display: flex;
+  gap: 52px;
+  text-align: center;
+}
+
